@@ -1,0 +1,7 @@
+.mouseOver{
+    color: green;
+}
+.done{
+    text-decoration-line: line-through;
+    color: red;
+}
