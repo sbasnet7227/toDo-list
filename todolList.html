@@ -1,24 +1,32 @@
 <!DOCTYPE html>
-<html >
+<html>
 <head>
-   
+
     <title>ToDo-List</title>
-    <link rel="stylesheet" href="todoList.css">
+    <link href="assets/css/ToDoList.css" rel="stylesheet" />
+    
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,500" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
 <body>
-    <h1>ToDo-List</h1>
-    <ol>
-        <li>
-            Take Baby shower
-        </li>
-        <li>
-            Clean Room
-        </li>
-        <li>
-            Do Grocery
-        </li>
-    </ol>
-    <script src="todoList.js"></script>
+    <div id="container">
+        <!--<i class="fa fa-spinner fa-spin"></i>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <i class="fa fa-refresh fa-spin"></i>
+        <i class="fa fa-cog fa-spin"></i>
+        <i class="fa fa-spinner fa-pulse"></i>-->
+        <h1>To-Do List <i class="fa fa-plus"></i></h1>
+        <input type="text" placeholder="Add New Todo" />
+        <ul>
+            <li><span><i class="fa fa-trash"></i> </span> Go to market</li>
+            <li><span><i class="fa fa-trash"></i></span>  Buy grocery</li>
+            <li><span><i class="fa fa-trash"></i></span>  Buy Kitchen Items</li>
+        </ul>
+    </div>
     
+
+    <script src="assets/js/ToDoList.js"></script>
 </body>
 </html>
